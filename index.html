@@ -4,51 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Pagina Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="./css/estilos.css" rel="stylesheet">
     <link rel="icon" type="image/vnd.icon" href="./images/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>
-            Brian Luciano Lonzari
-        </h1>
-        <img class="logo" src="./images/descarga.jfif" alt="foto de perfil" width="150px">
-        <h2>
-           <em>estudiante de programacion Web en <a href="https:www.coderhouse.com" target="_blank"> coder house</a></em>
-        </h2>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/favicon.ico" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
     </header>
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/productos.html">productos</a></li>
-            <li><a href="./pages/contacto.html">contacto</a></li>
-            <li><a href="./pages/actividades.html">actividades</a></li>
-        </ul>
-    </nav>
-    <hr>
     <main>
-        <section>
-            <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Beatae repellendus ab esse similique repellat dolore quidem
-              illo assumenda amet necessitatibus? Ea deserunt consectetur harum.
-             Cum at sequi officia repellat architecto. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Mollitia quo corporis impedit! Fuga consequuntur
-               possimus quo voluptate dolores quibusdam nihil magni, reprehenderit pariatur                voluptas tempore! Voluptatum eum harum beatae voluptates. Lorem ipsum dolo
-             sit amet consectetur adipisicing elit. Dignissimos, voluptatem aliquid saepe
-          magnam sunt, aliquam nulla, odio quia iusto reiciendis nostrum alias vel 
-            suscipit a deleniti repellendus sint eos rerum.
-            </p>
-        </section>
-        <section class="sectionImg">
-            <img src="./images/suculenta1.jpg" alt="planta" width="500px" >
-        </section>
+        <DIV class="contenido">
+            <h1>¡¡¡SOMOS BMW!!!</h1>
+            <h2 class="pindex">!!!Tu seguridad nos interesa,por eso ofrecemos, lo mejor de lo mejor!!. En calidad y velocidad!!!
+            </h2>
+            <img src="./images/descarga1.png" class="card-img-top" alt="...">
+
+        </DIV>    
     </main>
-    <hr>
-    <footer>
-        <h4>brianlucianolonzari@gmail.com📧</h4>
-        <h4>+543547609168☎</h4>
-    </footer>
+    <footer class="footer">
+        <div class="logo-footer">
+        <div class="derechos">
+          <p>Todos los derechos reservados©</p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
 </html>

@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Pagina Web</title>
-    <link href="../css/estilos.css" rel="stylesheet">
-    <link rel="icon" type="image/vnd.icon" href="../images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Pagina Web</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href="../css/estilos.css" rel="stylesheet">
+        <link rel="icon" type="image/vnd.icon" href="../images/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>
-            Brian Luciano Lonzari
-        </h1>
-        <img class="logo" src="../images/descarga.jfif" alt="foto de perfil" width="150px">
-        <h2>
-           <em>estudiante de programacion Web en <a href="https:www.coderhouse.com" target="_blank"> coder house</a></em>
-        </h2>
-    </header>
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./productos.html">productos</a></li>
-            <li><a href="./contacto.html">contacto</a></li>
-            <li><a href="./actividades.html">actividades</a></li>
-        </ul>
-    </nav>
-    <hr>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../images/favicon.ico" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     <main>
-        <section>
-            <h2>PRODUCTOS</h2>
-        </section>    
+<div class="contenido">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="../images/descarga.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BMW 118i SportLine</font></font></h6>
+            <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$2.090.000,</font></font></h5>
+                </div>
+      </div>
+    </div>
+</div>   
     </main>
-    <hr>
-    <footer>
-        <h4>brianlucianolonzari@gmail.com📧</h4>
-        <h4>+543547609168☎</h4>
-    </footer>
+    <footer class="footer">
+        <div class="logo-footer">
+        <div class="derechos">
+          <p>Todos los derechos reservados©</p>
+        </div>
+      </footer>
 </body>
 </html>
